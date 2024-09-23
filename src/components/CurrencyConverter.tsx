@@ -22,10 +22,8 @@ const CurrencyConverter = () =>{
             const responseData = await fetch(url);
             const data = await responseData.json();
             setPost(data.ExchangeRates.BRL);
-            console.log(responseData);
-            console.log(getPost);
         } catch (err) {
-        console.error("Error fetching data:", err);
+            console.error("Error fetching data:", err);
         }
     }
 
@@ -33,7 +31,7 @@ const CurrencyConverter = () =>{
         fetchPosts();
     }, []);
 
-    const exchangedPrice = (price : number) =>{
+    const convertPrice = (price : number) =>{
         try{
             const oldCurrencyRate = getPost.find((item) => item.Currency === currency)?.["ExchangeRate"] || 1;
             const newCurrencyRate = getPost.find((item) => item.Currency === newCurrency)?.["ExchangeRate"] || 1;
@@ -74,7 +72,9 @@ const CurrencyConverter = () =>{
                     </div>
                 </div>
             </form>
-            <button onClick={() => exchangedPrice(price)}>Converter</button>
+
+            <button onClick={() => convertPrice(price)}>Converter</button>
+            
         </div>
     )
 }
