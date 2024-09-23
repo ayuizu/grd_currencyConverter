@@ -1,0 +1,61 @@
+{
+    "ExchangeRates": {
+     "BRL": [
+        {
+            "Id": "0",
+            "Currency": "BRL",
+            "PTBR":"Real brasileiro",
+            "ExchangeRate": 1	
+        },
+        {
+            "Id": "1",
+            "Currency": "EUR",
+            "PTBR":"Euro",
+            "ExchangeRate": 6.1842	
+        },
+        {
+            "Id": "2",
+            "Currency": "USD",
+            "PTBR":"Dólar americano",
+            "ExchangeRate": 5.5576	
+        },
+        {
+            "Id": "3",
+            "Currency": "GBP",
+            "PTBR":"Libra esterlina",
+            "ExchangeRate": 7.4059	
+        },
+        {
+            "Id": "4",
+            "Currency": "JPY",
+            "PTBR": "Iene japonês",
+            "ExchangeRate": 0.03864
+        },
+        {
+            "Id": "5",
+            "Currency": "CHF",
+            "PTBR": "Franco suíço",
+            "ExchangeRate": 6.5416		
+        },
+        {
+            "Id": "6",
+            "Currency": "CAD",
+            "PTBR": "Dólar canadense",
+            "ExchangeRate": 4.1081	
+        },
+        {
+            "Id": "7",
+            "Currency": "AUD",
+            "PTBR": "Dólar australiano",
+            "ExchangeRate": 3.8024
+        },
+        {
+            "Id": "8",
+            "Currency": "CNY",
+            "PTBR": "Yuan chinês",
+            "ExchangeRate": 1.2712
+        }
+       ],
+       "Time": "23 Sep 2024"
+    }
+}
